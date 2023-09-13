@@ -1,0 +1,89 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle,#fff,#333);
+}
+.logo{ 
+    width: 80px;
+    border-radius: 70px;
+    border: solid rgb(63, 94, 180);
+
+}
+.logogen{
+    /* background-color: red; */
+margin-right: auto;
+}
+nav{
+}
+nav ul {
+    /* background-color: #69c; */
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    padding: 25px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    border: dashed #332 2px;
+    /* background: radial-gradient(circle,#fff,#333); */
+}
+.search{
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav a:hover{
+    color: #fff;
+    background-color: #016;    
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+main{
+    /* margin: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    background: radial-gradient(circle,#fff,#333);
+}
+p{
+    
+}
+.caja{
+    height: 250px;
+    width: 80%;
+    margin: 20px;
+    border: red solid;
+    display: flex;
+}
+.caja2{
+    flex-direction: row-reverse;
+}
+.imgcont{
+    height: 246px;
+    width: 246px;
+    
+}
+p{
+text-align: center;
+}
+footer{
+    background-color: #333;
+    border: #016 solid 5px;
+    padding: 10px;
+}
+@media only screen and (max-width: 500px){
+    .nav__ul{
+        display: none;
+    }
+}
