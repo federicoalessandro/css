@@ -5,13 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    background: radial-gradient(circle,#fff,#333);
+    background: radial-gradient(circle,#f2d40e,#e23333);
 }
-.logo{ 
-    width: 80px;
-    border-radius: 70px;
-    border: solid rgb(63, 94, 180);
-
+.logo{
+    /* border-radius: 70px; */
+    border: solid black;
+/* background-color: #e23333; */
+}
+.fa-utensils{
+    
 }
 .logogen{
     /* background-color: red; */
@@ -54,7 +56,7 @@ main{
     justify-content: center;
     overflow: hidden;
     padding: 20px;
-    background: radial-gradient(circle,#fff,#333);
+    background: radial-gradient(circle,#f2d40e,#e23333);
 }
 p{
     
