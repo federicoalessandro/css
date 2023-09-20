@@ -12,14 +12,9 @@ body{
     border: solid black;
 /* background-color: #e23333; */
 }
-.fa-utensils{
-    
-}
 .logogen{
     /* background-color: red; */
 margin-right: auto;
-}
-nav{
 }
 nav ul {
     /* background-color: #69c; */
@@ -36,53 +31,116 @@ nav ul {
 }
 .search{
     font-size: 20px;
+    border-radius: 50px;
 }
 nav ul li{
     display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;;
 }
 nav a:hover{
     color: #fff;
-    background-color: #016;    
 }
 nav a{
-    color: black;
+    color: #332;
     text-decoration: none;
     padding: 20px;
+    text-transform: capitalize;
 }
-main{
+.h1-main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    display: contents;
+}
+.div-h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #332;
+}
+.div-whatssapp{
+float: right;
+padding-right: 70px;
+}
+.logo-whatssapp{
+    font-size: 50px;
+    color: #25D366;
+    opacity: 0.5;
+    position: fixed;
+}
+.main-product{
     /* margin: 20px; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow: hidden;
+    overflow: hidden; */
     padding: 20px;
-    background: radial-gradient(circle,#f2d40e,#e23333);
 }
 p{
     
 }
 .caja{
     height: 250px;
-    width: 80%;
+    width: 48%;
     margin: 20px;
-    border: red solid;
-    display: flex;
+    border: dashed #332 2px;
+    border-radius: 50px;
+    display: flex
+}
+.caja:hover{
+    color: white;
+    font-size: 20px;
 }
 .caja2{
+    display: flex;
     flex-direction: row-reverse;
+    float: right;
+}
+.caja4{
+display: flex;
+flex-direction: row-reverse;
+float: right;
+}
+.caja6{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+}
+.caja8{
+    display: flex;
+flex-direction: row-reverse;
+float: right;
+}
+.div-input-caja{
+    /* padding-left: 10px;
+    padding-bottom: 10px; */
+    padding: 10px;
+    display: flex;
+    align-items: end;
+}
+.input-caja{
+width: 70px;
+height: 30px;
+margin: 5px;
+border-radius: 50px;
+}
+.input-number-caja{
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50px;
 }
 .imgcont{
     height: 246px;
     width: 246px;
-    
+    border-radius: 50px;
 }
 p{
 text-align: center;
 }
 footer{
-    background-color: #333;
-    border: #016 solid 5px;
+    border: dashed #332 2px;
     padding: 10px;
+    float: left;
 }
 @media only screen and (max-width: 500px){
     .nav__ul{
